@@ -1,0 +1,47 @@
+html, body, #container {
+	height: 100%;
+}
+
+body {
+	background-image: url(header.jpg);
+	background-color: #010005;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+
+#banner-text {
+	margin-top: 80px;
+	text-align: center;
+	width: 80%;
+	color: white;
+}
+
+#find-out-btn {
+	margin-bottom: 80px;
+}
+
+.btn {
+	border-radius: 1.3rem;
+}
+
+.btn-primary, .btn-primary:hover {
+	background-color: #F25936;
+	border-color: #FF4119;
+}
+
+.btn-primary:hover, .btn-primary:active {
+	background-color: #FF4119 !important;
+	border-color: #FF4119!important;
+}
+
+.btn-primary:focus, .btn-primary:active {
+	box-shadow: none !important;
+}
+
+h4 {
+	color: white;
+}
+
